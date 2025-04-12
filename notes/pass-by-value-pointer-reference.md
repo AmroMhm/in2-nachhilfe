@@ -1,4 +1,4 @@
-# 🧠 Argument Passing in C++ (for Dummies)
+# 🧠 Argument Passing in C++
 
 Understanding how arguments are passed in C++ is crucial. There are 3 main ways:
 
