@@ -22,6 +22,17 @@
           "CONFIG_NAME": "2-namespaces",
           "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}"
         }
+      },
+      {
+        "name": "Classes",
+        "description": "Builds the pointers-functions config inside /code.",
+        "generator": "Unix Makefiles",
+        "binaryDir": "${sourceDir}/out/build/${presetName}",
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Debug",
+          "CONFIG_NAME": "3-classes",
+          "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}"
+        }
       }
     ]
   }
