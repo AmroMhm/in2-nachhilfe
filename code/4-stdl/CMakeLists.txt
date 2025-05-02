@@ -1,1 +1,1 @@
-add_executable(stdl main.cpp)
+add_executable(stdl main.cpp Shape.h Shape.cpp)
