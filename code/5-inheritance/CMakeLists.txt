@@ -1,0 +1,1 @@
+add_executable(inheritance main.cpp Shape.h Shape.cpp)
