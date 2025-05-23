@@ -1,0 +1,1 @@
+add_executable(matrix main.cpp Matrix.h Matrix.cpp)

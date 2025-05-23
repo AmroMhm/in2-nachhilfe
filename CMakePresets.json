@@ -55,6 +55,17 @@
         "CONFIG_NAME": "5-inheritance",
         "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}"
       }
+    },
+    {
+      "name": "Matrix",
+      "description": "Builds the pointers-functions config inside /code.",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CONFIG_NAME": "6-matrix",
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}"
+      }
     }
   ]
 }
