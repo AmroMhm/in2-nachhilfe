@@ -6,8 +6,7 @@
 class Matrix
 {
 protected:
-    std::vector<std::vector<float>> * m_matrix;
-    int * ptr;
+    std::vector< std::vector<float> > * m_matrix;
 public:
     int rows;
     int cols;
@@ -18,10 +17,12 @@ public:
     Matrix(const Matrix& other);
     Matrix& operator=(const Matrix &);
     ~Matrix();
-    void print(std::ostream& stream) const;
-    float& operator[](int index);
+    void print(std::ostream& stream)const; 
+    float& operator[](int index) const;
     Matrix operator+(const Matrix& other);
     Matrix operator-(const Matrix& other);
+    Matrix operator*(const int value) ;
+
 
     
 };
